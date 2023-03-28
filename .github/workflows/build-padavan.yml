@@ -38,7 +38,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: HC5962
+        TNAME: MSG1500
       run: |
         cd /opt/Padavan-4.4/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
